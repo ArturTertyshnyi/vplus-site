@@ -1,90 +1,20 @@
-/* Общие стили страницы */
-body {
-  background: #0f2027;
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
-  font-family: Arial, sans-serif;
-  text-align: center;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Торгуем V Plus™</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>V Plus Logo</h1>
+    <h2>Торгуем V Plus™</h2>
 
-/* Центровка блока */
-.container {
-  margin-top: 100px;
-}
-
-/* Заголовки */
-h1, h2 {
-  margin-bottom: 30px;
-}
-
-/* Общие стили кнопок */
-a.btn {
-  display: block;
-  margin: 15px auto;
-  padding: 15px;
-  width: 250px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  border-radius: 10px;
-  transition: 0.3s;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  position: relative;
-  overflow: hidden;
-}
-
-/* Полупрозрачный слой для читаемости текста */
-a.btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.4); /* полупрозрачный черный слой */
-  border-radius: 10px;
-  z-index: 0;
-}
-
-/* Текст поверх слоя */
-a.btn span {
-  position: relative;
-  z-index: 1;
-}
-
-/* Фоновые изображения для кнопок */
-a.telegram {
-  background: url('images/telegram.png') no-repeat center center;
-  background-size: cover;
-}
-
-a.youtube {
-  background: url('images/youtube.png') no-repeat center center;
-  background-size: cover;
-}
-
-a.tiktok {
-  background: url('images/tiktok.png') no-repeat center center;
-  background-size: cover;
-}
-
-a.instagram {
-  background: url('images/instagram.png') no-repeat center center;
-  background-size: cover;
-}
-
-a.trade {
-  background: url('images/trade.png') no-repeat center center;
-  background-size: cover;
-  color: white;
-}
-
-/* Эффект наведения */
-a.btn:hover {
-  opacity: 0.9;
-  transform: scale(1.05);
-}
+    <a href="https://t.me/Sheff_Astana" target="_blank" class="btn telegram"><span>Группа в телеге</span></a>
+    <a href="https://youtube.com/@torguem_v_plus?si=FBincv2z7roid933" target="_blank" class="btn youtube"><span>Канал на YouTube</span></a>
+    <a href="https://www.tiktok.com/@torguem_v_plus" target="_blank" class="btn tiktok"><span>TikTok</span></a>
+    <a href="https://www.instagram.com/traidingplus1/profilecard/?igsh=aGNwN3Y5bnE2dDc4" target="_blank" class="btn instagram"><span>Instagram</span></a>
+    <a href="https://surl.li/vniqkf" target="_blank" class="btn trade"><span>Начать торговать</span></a>
+  </div>
+</body>
+</html>
