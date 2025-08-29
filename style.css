@@ -1,0 +1,75 @@
+/* Общие стили страницы */
+body {
+  background: #0f2027;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Центровка блока */
+.container {
+  margin-top: 100px;
+}
+
+/* Заголовки */
+h1, h2 {
+  margin-bottom: 30px;
+}
+
+/* Общие стили кнопок */
+a.btn {
+  display: block;
+  margin: 15px auto;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Фоновые изображения для кнопок */
+a.telegram {
+  background: url('images/telegram.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+a.youtube {
+  background: url('images/youtube.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+a.tiktok {
+  background: url('images/tiktok.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+a.instagram {
+  background: url('images/instagram.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+a.trade {
+  background: url('images/trade.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+/* Эффект наведения */
+a.btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
